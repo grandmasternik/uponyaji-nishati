@@ -9,10 +9,8 @@ const db = mongoose.connection;
 
 // Index Route
 app.get("/", (req, res) => {
-    res.send("/index.ejs");
+    res.render("index.ejs");
 });
-
-
 
 mongoose.connect(process.env.DATABASE_URL, {
     useNewUrlParser: true,
