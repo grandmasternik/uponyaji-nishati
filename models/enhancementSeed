@@ -1,0 +1,41 @@
+const Enhancement = [
+    {
+        name: 'Activated Charcoal',
+        descriptioin: '',
+        benefits: '',
+        imgurl: 'https://imgur.com/akdlB5v',
+    }
+    {
+        name: 'Aloe Vera',
+        descriptioin:,
+        benefits:,
+        imgurl: 'https://imgur.com/xn2J9x9',
+    }
+    {
+        name: 'Colloidial Oatmeal',
+        descriptioin:'',
+        benefits: '',
+        imgurl: 'https://imgur.com/xAgfNCN',
+    }
+    {
+        name: 'Sea Salt',
+        descriptioin:,
+        benefits:,
+        imgurl: 'https://imgur.com/undefined',
+    }
+    {
+        name: 'Spirulina',
+        descriptioin:,
+        benefits:,
+        imgurl: 'https://imgur.com/Y1KssRr',
+    }
+    {
+        name: 'Tumeric',
+        descriptioin:,
+        benefits:,
+        imgurl: 'https://imgur.com/h4vGUWa',
+    }
+    
+]
+
+module.exports = Enhancement

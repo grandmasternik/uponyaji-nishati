@@ -7,6 +7,16 @@ const app = express();
 const mongoose = require('mongoose');
 const db = mongoose.connection;
 
+// Index Route
+app.get("/", (req, res) => {
+    res.send("/index.ejs");
+});
+
+//Show Route
+app.get("/:index", (req, res)=>{
+    res.send("index.ejs");
+});
+
 mongoose.connect(process.env.DATABASE_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true,

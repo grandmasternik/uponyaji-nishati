@@ -1,0 +1,41 @@
+const Oil = [
+    {
+        name: 'Sweet Almond Oil',
+        descriptioin:,
+        benefits:,
+        imgurl:,
+    }
+    {
+        name: 'Avocado Oil',
+        descriptioin:,
+        benefits:,
+        imgurl: 'https://imgur.com/h4vGUWa',
+    }
+    {
+        name: 'Castor Oil',
+        descriptioin:,
+        benefits:,
+        imgurl: 'https://imgur.com/undefined',
+    }
+    {
+        name: 'Coconut Oil',
+        descriptioin:,
+        benefits:,
+        imgurl: 'https://imgur.com/undefined',
+    }
+    {
+        name: 'Grapeseed Oil',
+        descriptioin:,
+        benefits:,
+        imgurl: 'https://imgur.com/bmqJSXN',
+    }
+    {
+        name: 'Hempseed Oil',
+        descriptioin:,
+        benefits:,
+        imgurl: 'https://imgur.com/MH0Aw4f',
+    }
+
+]
+
+module.exports = Oil

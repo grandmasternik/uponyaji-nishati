@@ -1,0 +1,35 @@
+const Enhancement = [
+    {
+        name: 'Bentonite Clay',
+        descriptioin: '',
+        benefits: '',
+        imgurl: 'https://imgur.com/0a6YsAS',
+    }
+    {
+        name: 'French Green Clay',
+        descriptioin:,
+        benefits:,
+        imgurl: 'https://imgur.com/ry0Lz47',
+    }
+    {
+        name: 'Kaolin Clay',
+        descriptioin:,
+        benefits:,
+        imgurl: 'https://imgur.com/JzsNhkO',
+    }
+    {
+        name: 'Moroccan Red Clay',
+        descriptioin:,
+        benefits:,
+        imgurl: 'https://imgur.com/ZQICMoJ',
+    }
+    {
+        name: 'Rose Clay',
+        descriptioin:,
+        benefits:,
+        imgurl: 'https://imgur.com/7PvO1v5',
+    }
+    
+]
+
+module.exports = lay
