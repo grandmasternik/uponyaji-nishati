@@ -12,10 +12,7 @@ app.get("/", (req, res) => {
     res.send("/index.ejs");
 });
 
-//Show Route
-app.get("/:index", (req, res)=>{
-    res.send("index.ejs");
-});
+
 
 mongoose.connect(process.env.DATABASE_URL, {
     useNewUrlParser: true,
