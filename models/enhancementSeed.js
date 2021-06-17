@@ -1,32 +1,32 @@
 const Enhancement = [
     {
         name: 'Activated Charcoal',
-        benefits: 'Purifier: unclogs the pores by binding to the dirt and pull it out of the pores, making them less visible. Clarifier: removes dead skin cells & absorbs excess oil. Antibacterial, antifungal properties and gently exfoliates.',
+        benefits: 'Binds to dirt in the pores to unclog them and make them less visible.Purifier: unclogs the pores by binding to the dirt and pull it out of the pores, making them less visible. It also removes dead skin cells & absorbs excess oil.',
         imgurl: 'https://imgur.com/akdlB5v',
-    }
+    },
     {
         name: 'Aloe Vera',
         benefits: 'Hydrates and soothes inflammation',
         imgurl: 'https://imgur.com/xn2J9x9',
-    }
+    },
     {
         name: 'Colloidal Oatmeal',
-        benefits: 'Treats severely dry skin. Adds protective barrier to the surface. Gentle exfoliator. Balances skin pH and anti-inflammatory properties.',
+        benefits: 'A gentle exfoliatnt that balance the pH of the skin and treat in severe dryness and inflammation.',
         imgurl: 'https://imgur.com/xAgfNCN',
-    }
+    },
     {
         name: 'Sea Salt',
-        benefits: 'Antimicrobial  properties that fights acne. Absorbs dirt and toxins, unclogging the pores and removing impurities. Cleanses the pores deeply while helping restore the protective barrier. Promotes new skin growth and blood circulation. Enhances hydration abilities and restores the natural oil balance of the skin. ',
+        benefits: 'Fights acne by absorb dirt and toxins, unclog pores and removing impurities. Also enhance hydration and encourages new skin growth. ',
         imgurl: 'https://imgur.com/undefined',
-    }
+    },
     {
         name: 'Spirulina',
-        benefits: 'Clanses, detoxifies and tones skin, removes heavy toxins and free radicals resulting in smoother, softer skin.  Lessens dark marks and enhances the natural glow of the skin.',
+        benefits: 'Cleanses, detoxifies and tones skin while enhance its natural glow.',
         imgurl: 'https://imgur.com/Y1KssRr',
-    }
+    },
     {
         name: 'Tumeric',
-        benefits: 'Treats & prevents acne. Treats dark spots, hyperpigmentation and scarring. Aids in wound/acne healing. Targets the pores and calms skin through its anti-inflammatory properties.  Enhances natural glow.',
+        benefits: 'Treats & prevents acne, aid in wound healing and evens skin tone by treating dark spots, hyperpigmentation and scarring.',
         imgurl: 'https://imgur.com/h4vGUWa',
     }
     

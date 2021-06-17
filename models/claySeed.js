@@ -1,4 +1,4 @@
-const Enhancement = [
+const Clay = [
     {
         name: 'Bentonite Clay',
         benefits: 'Detoxifies and deep cleanses the skin. Great direct pimple treatment.',

@@ -13,6 +13,6 @@ const claySchema = new Schema({
     img: String,
 });
 
-// const Products = mongoose.model(`Products`, ProductsSchema)
+const Clay = mongoose.model(`Clay`, claySchema);
 
 module.exports = mongoose.model(`Clay`, claySchema);
