@@ -1,20 +1,47 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <%= include ('./partials/head.ejs') %>
+    <%- include ('./partials/head.ejs') %>
     <title>Uponyaji Nishati Asili</title>
 </head>
+
 <body>
-    <header><h1>Uponyaji Nishati Asili</h1></header>
+    <header>
+        <h1>Uponyaji Nishati Asili</h1>
+    </header>
     <nav>
-        <a href = 'views/index.ejs'>Home</a>
-        <a href="">Clays</a> <a href="">Oils</a> <a href="">Enhancements</a> <a href="">Login/Sign Up</a>
+        <div id="Login">
+            <a href="">Login/Sign Up</a></div>
 
     </nav>
     <h3>Welcome to Uponyaji Nishati Asili</h3>
-    
+
+    <section>
+        <h4>About UNA</h4>
+        <p>Uponyaji Nishati Asili is a holistic skincare company that was
+            created to target the end user in mind....YOU. Here at UNA, you are
+            given the ability to take part in the creation of the product(s) to
+            take care of your skincare needs. You are able to build your mask
+            choosing a clay</p>
+    </section>
+
+    <div class="row">
+        <div class="column">
+            <a href="http://localhost:3000/clays">
+                <img src="https://imgur.com/JzsNhkO" width="100" height="100">
+            </a></div>
+        </p>
+        <div class="column"><a href="http://localhost:3000/enhancements"><img src="https://imgur.com/JzsNhkO" width="100" height="100"></a></div>
+        <div class="column"><a href="http://localhost:3000/oils"><img src="https://imgur.com/JzsNhkO" width="100" height="100"></div>
+    </div>
+
+    <!-- <a href="https://www.qries.com/">
+        <img alt="Qries" src="https://www.qries.com/images/banner_logo.png"
+        width=150" height="70"> -->
 </body>
 <foot>
     <h5><%- include ('./partials/foot.ejs') %></h5>
 </foot>
-</html> -->
+
+</html>

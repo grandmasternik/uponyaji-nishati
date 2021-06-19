@@ -24,6 +24,9 @@ app.use(methodOverride(`_method`))
 // Set default view engine
 app.set('view engine', 'ejs');
 
+// Home Route
+app.get('/', (req, res) => res.render('index'));
+
 //Database 
 mongoose.connect(process.env.DATABASE_URL, {
     useNewUrlParser: true,
