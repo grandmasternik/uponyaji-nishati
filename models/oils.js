@@ -13,6 +13,8 @@ const oilSchema = new Schema({
     img: String,
 });
 
-// const Products = mongoose.model(`Products`, ProductsSchema)
+// const Products = mongoose.model(`Products`, ProductsSchemaO
+const Oil = mongoose.model(`Oil`, oilSchema);
+
 
 module.exports = mongoose.model(`Oil`, oilSchema);
