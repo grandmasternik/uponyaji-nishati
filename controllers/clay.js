@@ -42,31 +42,31 @@ clayRouter.get(`/:_id`, (req, res) => {
     });
 });
  
-// // Edit Route
-// clayRouter.get('/:id/edit', (req, res) => {
-//     Clay.findById(req.params.id, (error, foundClay) => {
-//         res.render('edit.ejs', {
-//             clay: foundClay
-//         });
-//     });
-// });
+// Edit Route
+clayRouter.get('/:id/edit', (req, res) => {
+    Clay.findById(req.params.id, (error, foundClay) => {
+        res.render('edit.ejs', {
+            clay: foundClay
+        });
+    });
+});
 
-// // Update
-// clayRouter.put('/:id', (req, res) => {
-//     if (req.body.readyToEat === 'on') {
-//         req.body.readyToEat = true;
-//     } else {
-//         req.body.readyToEat = false;
-//     }
-//     res.send(req.body);
-// });
+// Update
+clayRouter.put('/:id', (req, res) => {
+    if (req.body.readyToEat === 'on') {
+        req.body.readyToEat = true;
+    } else {
+        req.body.readyToEat = false;
+    }
+    res.send(req.body);
+});
 
-// // Delete Route
-// clayRouter.delete('/:id', (req, res) => {
-//     Clay.findByIdAndRemove(req.params.id, (err, data) => {
-//         res.redirect('/clays');
-//     });
-// });
+// Delete Route
+clayRouter.delete('/:id', (req, res) => {
+    Clay.findByIdAndRemove(req.params.id, (err, data) => {
+        res.redirect('/clays');
+    });
+});
 
 // export functionality
 module.exports = clayRouter;
