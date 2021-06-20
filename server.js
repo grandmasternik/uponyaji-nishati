@@ -5,7 +5,7 @@ const app = express();
 const Clay = require("./models/clays");
 const Enhancement = require("./models/enhancements");
 const Oil = require("./models/oils");
-
+// const build = require ("build.ejs")
 // Configure Mongoose
 const mongoose = require('mongoose');
 const db = mongoose.connection;
@@ -27,6 +27,8 @@ app.set('view engine', 'ejs');
 // Home Route
 app.get('/', (req, res) => res.render('index'));
 
+
+
 //Database 
 mongoose.connect(process.env.DATABASE_URL, {
     useNewUrlParser: true,
@@ -44,6 +46,7 @@ db.on('disconnected', () => console.log('mongo disconnected'));
 app.use('/clays', require('./controllers/clay'));
 app.use('/enhancements', require('./controllers/enhancement'));
 app.use('/oils', require('./controllers/oil'));
+// app.use('/build', require('./controllers/build'));
 
 // Listener
 const PORT = process.env.PORT;
