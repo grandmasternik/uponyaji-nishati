@@ -30,7 +30,7 @@ To get started
 * Heroku: 
 
 ## Future Features
-Sign Up/Login Auth
-Build a Mask
-Create a Skin Profile
-E-commerce Shop  
+* Sign Up/Login Auth
+* Build a Mask
+* Create a Skin Profile
+* E-commerce Shop  
