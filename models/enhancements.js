@@ -10,7 +10,7 @@ const enhancementSchema = new Schema({
         type: String,
         required: true,
     },
-    img: String,
+    imgurl: String,
 });
 
 // const Products = mongoose.model(`Products`, ProductsSchema)

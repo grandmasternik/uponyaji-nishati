@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <%- include ('../partials/head.ejs') %>
-    <title>Uponyaji Nishait Asili | Clays</title>
+    <title>Terayn | Clay Collection</title>
 </head>
 <body> 
     <header>
@@ -12,7 +12,7 @@
     <section>
         <div class="card">
             <h3><a href="/clays/<%= clay._id %>"><%= clay.name %> </a></h3>
-            <img src= "<%= clay.img %>" alt="<%= clay.name %>"> 
+            <img src= "<%= clay.imgurl %>" alt="<%= clay.name %>"> 
             <p><%= clay.description %></p>
         </div>
     </section>

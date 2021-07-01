@@ -10,7 +10,7 @@ const claySchema = new Schema({
         type: String,
         required: true,
     },
-    img: String,
+    imgurl: String,
 });
 
 const Clay = mongoose.model(`Clay`, claySchema);

@@ -1,18 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <%- include ('./partials/head.ejs') %>
-    <title>Uponyaji Nishati Asili | Build a Mask</title>
+    <%- include ('../partials/head.ejs') %>
+    <title>Terayn | Build a Mask</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href = "/">Home</a></li>
+            <li><a href="./clays">Clays</a></li> 
+            <li><a href="./enhancements">Enhancements</a></li> 
+            <li><a href="./oils">Oils</a></li> 
+        </ul>   
+     </nav>
     <h3>Build a Mask Guide</h3>
     <p> To begin your co-creation with us, we first need you to select the clay that best fits your skincare needs from the dropdown below.  <em>Recommendation: Bentonite clay a heavy, drying clay; if you intend to use this mask more than 2x per week and have dry and/or sensitive skin, we recommend choosing one of the lighter clays.</em></p>
 
-    <div class="dropdown"></div>
+    <div class="dropdown">
+        <form>
+            <h4>Select Clay</h4>
+          
+            <select id="clay">
+                <option value="Make Selection">Clay Selector</option>
+               <option value="Bentonite">Bentonite Clay</option>
+               <option value="French Green Clay">French Green Clay</option>
+               <option value="Kaolin Clay">Kaolin Clay</option>
+               <option value="Moroccan Red Clay">Moroccan Red Clay</option>
+               <option value="Rose Clay">Rose Clay</option>
+            </select>
+        </form>
+    </div>
 
     <p>Next select the oil that will best suit your skin type from the dropdown below <em>Recommendation: If you have oily or combination skin, avocado oil and coconut oil is best to be avoided. Try our lighter oils: grapeseed or hempseed.</em></p>
+    
+    <div class="dropdown">
+        <form>
+                <h4>Select Oil</h4>
+          
+            <select id="oil">
+                <option value="Make Selection">Oil Selector</option>
+               <option value="Sweet Almond Oil">Sweet Almond Oil</option>
+               <option value="Avocado Oil">Avocado Oil</option>
+               <option value="Castor Oil">Castor Oil</option>
+               <option value="Coconut Oil">Coconut Oil</option>
+               <option value="Grapeseed Oil">Grapeseed Oil</option>
+               <option value="Hempseed Oil">Hempseed Oil</option>
+            </select>
+        </form>
+    </div>
+
+    <h4>Enhancements
+    </h4>
+
+    <p id="select"><em>Select 2</em></p>
+
+    <div class="eCheckbox">
+        <form>
+        <ul>
+            <input type="checkbox" name="Activated Charcoal" value="yes" >Activated Charcoal 
+            <br />
+            <input type="checkbox" name="Aloe Vera" value="yes">Aloe Vera
+            <br />
+            <input type="checkbox" name="Colloidal Oatmeal" value="yes">Colloidal Oatmeal
+            <br />
+            <input type="checkbox" name="Sea Salt" value="yes" >Sea Salt
+            <br />
+            <input type="checkbox" name="Spirulina" value="yes">Spirulina
+            <br />
+            <input type="checkbox" name="Tumeric" value="yes">Tumeric
+            <br />
+        </ul>
+        </form>
+    </div>
+
+    In the text box below, provide your skin type, skin issues and problem zones. Also, give any additional information that you deem necessary to help us help you meet your skincare goals.
+
+<br /><br />
+    <div class="textbox">
+        <form>
+            <input type="text" placeholder="Add Additional Information Here">
+            <button type="submit" btn btn-primary>Submit</button>
+        </form>
+    </div>
+
 </body>
 <foot>
-    <h5><%- include ('./partials/foot.ejs') %></h5>
+    <h6><%- include ('../partials/foot.ejs') %></h6>
 </foot>
 </html>
